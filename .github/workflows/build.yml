@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Clone SonixQMK
         run: git clone https://github.com/SonixQMK/qmk_firmware.git --branch sn32_master
       - name: Install qmk deps
